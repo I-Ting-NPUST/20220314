@@ -10,28 +10,78 @@ namespace _20220314
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("請輸入一個數字");
-            string str1 = Console.ReadLine();
+            /*  Console.WriteLine("請輸入一個數字");
+              string str1 = Console.ReadLine();
+              int num1 = Convert.ToInt32(str1);
 
-            int num1 = Convert.ToInt32(str1);
-            if (num1 % 2 != 0)
+              if (num1 % 2 != 0)
+              {
+                  Console.WriteLine("Weird");
+              }
+              else if (num1 >= 2 && num1 <= 5)
+              {
+                  Console.WriteLine("Not Weird");
+              }
+              else if (num1 >= 6 && num1 <= 20)
+              {
+                  Console.WriteLine("Weird");
+              }
+              else
+              {
+                  Console.WriteLine("Not Weird");
+              }*/
+
+            //練習一
+            Console.Write("請輸入N : ");
+            string str2 = Console.ReadLine();
+            int num2 = Convert.ToInt32(str2);
+
+            Console.WriteLine();
+
+            for (int x = 1; x <= num2; x++)
             {
-                Console.WriteLine("Weird");
+                for (int y = 1; y <= x; y++)
+
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
             }
-            else if (num1 >= 2 && num1 <= 5)
+
+            Console.WriteLine();
+
+            //練習二
+            Console.Write("請輸入N : ");
+            string str3 = Console.ReadLine();
+            int num3 = Convert.ToInt32(str3);
+
+            Console.WriteLine();
+
+            for (int y = 1; y <= num3; y++)
+
             {
-                Console.WriteLine("Not Weird");
+                Console.WriteLine(num3 + "*" + y + "=" + (num3 * y));
             }
-            else if (num1 >= 6 && num1 <= 20)
+
+            Console.WriteLine();
+
+            //練習三
+
+            for (int i = 1; i <= 9; i++)
             {
-                Console.WriteLine("Weird");
+                for (int j = 1; j <= 9; j++)
+
+                {
+                    Console.WriteLine(i + "*" + j + "=" + (i * j));
+                }
+                Console.WriteLine();
             }
-            else
-            {
-                Console.WriteLine("Not Weird");
-            }
+
             Console.ReadKey();
         }
     }
 }
+
+
+
 
