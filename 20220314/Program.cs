@@ -31,53 +31,84 @@ namespace _20220314
                   Console.WriteLine("Not Weird");
               }*/
 
-            //練習一
-            Console.Write("請輸入N : ");
-            string str2 = Console.ReadLine();
-            int num2 = Convert.ToInt32(str2);
+            ////練習一
+            //Console.Write("請輸入N : ");
+            //string str2 = Console.ReadLine();
+            //int num2 = Convert.ToInt32(str2);
 
-            Console.WriteLine();
+            //Console.WriteLine();
 
-            for (int x = 1; x <= num2; x++)
-            {
-                for (int y = 1; y <= x; y++)
+            //for (int x = 1; x <= num2; x++)
+            //{
+            //    for (int y = 1; y <= x; y++)
 
-                {
-                    Console.Write("*");
-                }
-                Console.WriteLine();
-            }
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+              
+            //}
+            //Console.ReadKey();
+ 
 
-            Console.WriteLine();
+            ////練習二
+            //Console.Write("請輸入N : ");
+            //string str3 = Console.ReadLine();
+            //int num3 = Convert.ToInt32(str3);
 
-            //練習二
-            Console.Write("請輸入N : ");
-            string str3 = Console.ReadLine();
-            int num3 = Convert.ToInt32(str3);
+            //Console.WriteLine();
 
-            Console.WriteLine();
+            //for (int y = 1; y <= num3; y++)
 
-            for (int y = 1; y <= num3; y++)
+            //{
+            //    Console.WriteLine(num3 + "*" + y + "=" + (num3 * y));
+            //}
+            //Console.ReadKey();
+            
+            
 
-            {
-                Console.WriteLine(num3 + "*" + y + "=" + (num3 * y));
-            }
+            ////練習三
 
-            Console.WriteLine();
+            //for (int i = 1; i <= 9; i++)
+            //{
+            //    for (int j = 1; j <= 9; j++)
 
-            //練習三
+            //    {
+            //        Console.WriteLine(i + "*" + j + "=" + (i * j));
+            //    }
+            //    Console.WriteLine();
+            //}
+            //Console.ReadKey();
 
-            for (int i = 1; i <= 9; i++)
-            {
-                for (int j = 1; j <= 9; j++)
+            //int[] studentNo = { 1, 2, 3, 4, 5 };
+            //string[] studentName = { "Jack", "Mary", "Tom", "Grace", "Alice" };
+            //int[] computerScore = { 80, 65, 100, 98, 83 };
+            //int[] progarmScore = { 75, 67, 93, 25, 82 };
+            //int[] animationScore = { 60, 62, 91, 50, 87 };
 
-                {
-                    Console.WriteLine(i + "*" + j + "=" + (i * j));
-                }
-                Console.WriteLine();
-            }
+            //while (true)
+            //{
+            //    Console.WriteLine("請輸入座號(1-5)");
+            //    var input = Console.ReadLine();
+            //    int inputStudentNo = int.Parse(input);
+            //    int arrayIndex = Array.IndexOf(studentNo, inputStudentNo);
+            //    if (arrayIndex > -1)
+            //    {
+            //        Console.WriteLine("姓名:" + studentName[arrayIndex]);
+            //        Console.WriteLine("電腦概論:" + computerScore[arrayIndex]);
+            //        Console.WriteLine("程式設計:" + progarmScore[arrayIndex]);
+            //        Console.WriteLine("動畫設計:" + animationScore[arrayIndex]);
+            //        Console.WriteLine();
 
-            Console.ReadKey();
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("沒有這個座號");
+            //        Console.WriteLine();
+            //    }
+            //    Console.ReadKey();
+            //}
+
         }
     }
 }
